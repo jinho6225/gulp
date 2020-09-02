@@ -1,8 +1,20 @@
 {
-  "name": "supergulp",
+  "name": "gulp",
   "version": "1.0.0",
   "description": "Learn Gulp by building an awesome development environment",
-  "repository": "https://github.com/nomadcoders/super-gulp",
-  "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
-  "license": "MIT"
+  "repository": "https://github.com/jinho6225/gulp",
+  "author": "-",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5"
+  }
 }
